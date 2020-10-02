@@ -142,7 +142,9 @@ namespace ImGui
 
         int width_;
         int height_;
+    public:
         ImGuiFileBrowserFlags flags_;
+    private:
 
         std::string title_;
         std::string openLabel_;
